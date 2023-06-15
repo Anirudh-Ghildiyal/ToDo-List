@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+.total-container
+{
+  height: 100vh;
+  background-color: #D6E8FF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title-container
+{
+  background-color: #85B8FF ;
+  width: 100vw;
+  height: 25vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title
+{
+  padding-top: 3rem;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.task-button
+{
+  margin-top: 1.5rem;
+}
+
+.task-container
+{
+  width: 100vw;
+  background-color: #D6E8FF;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  padding-left: 5.5rem;
+  padding-right: 4.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 2rem;
+  justify-content: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+.button-area
+{
+  display: flex;
+  justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.completedCard {
+  background-color: #98FB98 !important; 
+}
+
+.btn-fixed-width{
+  width: 100px;
 }
